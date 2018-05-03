@@ -1,0 +1,14 @@
+
+
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    timeout: 2000
+    maxIdle: 8
+    minIdle: 0
+    maxWait: -1
+
+weixin:
+  appid: wxe106bd10be926918
+  appsecret: e449249b3fe95923215db62cf27a655c
