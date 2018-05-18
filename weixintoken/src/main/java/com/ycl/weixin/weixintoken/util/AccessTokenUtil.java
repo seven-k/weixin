@@ -76,4 +76,12 @@ public class AccessTokenUtil {
             resultMap.put("result", "error");
         return resultMap;
     }
+
+    public static void main(String[] args) {
+        String a="23";
+        StringBuilder sb=new StringBuilder(a);
+        StringBuilder sb2=new StringBuilder(12);
+        System.out.println(sb);
+        System.out.println(sb2);
+    }
 }
